@@ -9,23 +9,23 @@
                 {
                     "arguments": [
                         {
-                          "format": "amount",
-                          "name": "amountToStake",
-                          "value": {
-                              "quantity": {
-                                  "path": {
-                                      "transaction": "amount"
-                                  }
-                              },
-                              "token": {
-                                  "constant": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
-                              }
-                          }
-                       },
+                            "format": "amount",
+                            "name": "amountToStake",
+                            "value": {
+                                "quantity": {
+                                    "path": {
+                                        "transaction": "amount"
+                                    }
+                                },
+                                "token": {
+                                    "constant": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+                                }
+                            }
+                        },
                         {
                             "format": "eip55",
-                            "name": "_withdraw",
                             "label": "Withdrawal addr.",
+                            "name": "_withdraw",
                             "value": {
                                 "address": {
                                     "path": {
@@ -38,30 +38,30 @@
                     "functionName": "deposit",
                     "functionType": "stake",
                     "options": {
-                      "ethContractAddress": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+                        "ethContractAddress": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
                     },
                     "screen": [
-                      {
-                        "label": "Amount to stake",
-                        "name": "amountToStake"
-                      },
-                      {
-                        "label": "Withdrawal addr.",
-                        "name": "_withdraw"
-                      }
-                   ],
+                        {
+                            "label": "Amount to stake",
+                            "name": "amountToStake"
+                        },
+                        {
+                            "label": "Withdrawal addr.",
+                            "name": "_withdraw"
+                        }
+                    ],
                     "selector": "0xf340fa01"
                 },
                 {
-                  "arguments":[
-                  ],
-                  "functionType":"stake",
-                  "functionName":"deposit",
-                  "options":{},
-                  "selector":"0xd0e30db0"
+                    "arguments": [],
+                    "functionName": "deposit",
+                    "functionType": "stake",
+                    "options": {},
+                    "selector": "0xd0e30db0"
                 }
             ]
         }
     ],
+    "id": "kiln",
     "name": "kiln"
 }

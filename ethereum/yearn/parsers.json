@@ -53,7 +53,7 @@
                         },
                         {
                             "label": "Amount to deposit",
-                            "name": "depositAmount" 
+                            "name": "depositAmount"
                         },
                         {
                             "label": "Vault to deposit into",

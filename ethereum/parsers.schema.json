@@ -183,7 +183,9 @@
                                         "claim_reward",
                                         "configure",
                                         "buy",
-                                        "approve"
+                                        "approve",
+                                        "transfer_erc721",
+                                        "transfer_erc1155"
                                     ]
                                 },
                                 "options": {
